@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+import TestComponent from './components/TestComponent.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main class="main column">
+    <TestComponent></TestComponent>
+  </main>
 </template>
 
 <style scoped></style>
